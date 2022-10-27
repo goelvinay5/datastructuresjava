@@ -1,9 +1,6 @@
 package com.example.datastructures.models;
 
-public class ArrayDS {
-    public String Title;
-    public String problem;
-    public String solution;
+public class ArrayDS extends BaseModel {
     public int[] input;
     public int[] output;
 }
