@@ -11,7 +11,7 @@
 	<groupId>com.example.datastructures</groupId>
 	<artifactId>datastructuresjava</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>datastructuresjava</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
