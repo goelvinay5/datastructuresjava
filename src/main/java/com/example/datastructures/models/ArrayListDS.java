@@ -6,6 +6,6 @@ public class ArrayListDS {
     public String Title;
     public String problem;
     public String solution;
-    public ArrayList<> input;
-    public ArrayList<> output;
+    public ArrayList<Integer> input;
+    public ArrayList<Integer> output;
 }
