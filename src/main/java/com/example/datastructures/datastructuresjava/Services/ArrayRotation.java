@@ -9,12 +9,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.datastructures.models.ArrayDS;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @CrossOrigin
 @RestController
-@RequestMapping()
+@RequestMapping(value="/arrayrotation", method=RequestMethod.GET, produces = "application/json")
 public class ArrayRotation {
-    @GetMapping("/arrayrotation")
+    @GetMapping()
     public ArrayDS solve() {
         ArrayDS obj = new ArrayDS();
         try {
